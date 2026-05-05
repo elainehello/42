@@ -2,19 +2,20 @@
 #define LIBFT_H
 
 #include <stddef.h> // size_t
+#include <stdio.h>
 
 // (Character type) ctype.h ref
-int     ft_isalnum(int);
-int     ft_isalpha(int);
-int     ft_isascii(int);
-int     ft_isdigit(int);
-int     ft_islower(int);
-int     ft_isprint(int);
-int     ft_isupper(int);
-int     ft_isdigit(int);
-int     ft_toascii(int);
-int     ft_tolower(int);
-int     ft_toupper(int);
+int     ft_isalnum(int c);
+int     ft_isalpha(int c);
+int     ft_isascii(int c);
+int     ft_isdigit(int c);
+int     ft_islower(int c);
+int     ft_isprint(int c);
+int     ft_isupper(int c);
+int     ft_isdigit(int c);
+int     ft_toascii(int c);
+int     ft_tolower(int c);
+int     ft_toupper(int c);
 
 // (Standard library) stdlib.h ref
 int     ft_atoi(const char *nptr);
