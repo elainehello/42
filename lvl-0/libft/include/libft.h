@@ -3,6 +3,9 @@
 
 #include <stddef.h> // size_t
 #include <stdio.h>
+#include <stdint.h> // SIZE_MAX macro
+#include <stdlib.h>
+
 
 // (Character type) ctype.h ref
 int     ft_isalnum(int c);
@@ -16,7 +19,7 @@ int     ft_toupper(int c);
 
 // (Standard library) stdlib.h ref
 int     ft_atoi(const char *nptr);
-int     ft_calloc(size_t nmemb, size_t size);
+void    *ft_calloc(size_t nmemb, size_t size);
 
 // (String) string.h ref perform tasks on strings
 char    *ft_strchr(const char *s, int c);
