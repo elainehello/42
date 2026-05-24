@@ -18,7 +18,7 @@ int      ft_memcmp(const void *s1, const void *s2, size_t n)
     return (0); // quit successfully
 }
 
-int main(void)
+/* int main(void)
 {
     char src[] = "Hello, 42!";
     char dest1[11];
@@ -30,4 +30,4 @@ int main(void)
     printf("   memcpy: %s\n", dest2);
     printf("    match: %s\n", ft_memcmp(dest1, dest2, 11) == 0 ? "YES" : "NO");
     return (0);
-}
+} */
