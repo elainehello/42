@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdint.h> // SIZE_MAX macro
 #include <stdlib.h>
+#include <string.h>
 
 
 // (Character type) ctype.h ref
